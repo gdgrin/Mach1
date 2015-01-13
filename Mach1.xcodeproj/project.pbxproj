@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0213F401A6408B300369BC3 /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0213F3F1A6408B300369BC3 /* ClassViewController.swift */; };
 		B0899CB31A44A0B300720A08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0899CB21A44A0B300720A08 /* AppDelegate.swift */; };
 		B0899CB51A44A0B300720A08 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0899CB41A44A0B300720A08 /* FirstViewController.swift */; };
 		B0899CB71A44A0B300720A08 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0899CB61A44A0B300720A08 /* SecondViewController.swift */; };
@@ -14,6 +15,7 @@
 		B0899CBC1A44A0B300720A08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0899CBB1A44A0B300720A08 /* Images.xcassets */; };
 		B0899CBF1A44A0B300720A08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0899CBD1A44A0B300720A08 /* LaunchScreen.xib */; };
 		B0899CCB1A44A0B300720A08 /* Mach1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0899CCA1A44A0B300720A08 /* Mach1Tests.swift */; };
+		B0F498201A5C358D0055EDAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4981F1A5C358D0055EDAB /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B0213F3F1A6408B300369BC3 /* ClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
 		B0899CAD1A44A0B300720A08 /* Mach1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mach1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0899CB11A44A0B300720A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0899CB21A44A0B300720A08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		B0899CC41A44A0B300720A08 /* Mach1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mach1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0899CC91A44A0B300720A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0899CCA1A44A0B300720A08 /* Mach1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mach1Tests.swift; sourceTree = "<group>"; };
+		B0F4981F1A5C358D0055EDAB /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				B0899CB21A44A0B300720A08 /* AppDelegate.swift */,
 				B0899CB41A44A0B300720A08 /* FirstViewController.swift */,
 				B0899CB61A44A0B300720A08 /* SecondViewController.swift */,
+				B0F4981F1A5C358D0055EDAB /* HomeViewController.swift */,
+				B0213F3F1A6408B300369BC3 /* ClassViewController.swift */,
 				B0899CB81A44A0B300720A08 /* Main.storyboard */,
 				B0899CBB1A44A0B300720A08 /* Images.xcassets */,
 				B0899CBD1A44A0B300720A08 /* LaunchScreen.xib */,
@@ -216,8 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0899CB71A44A0B300720A08 /* SecondViewController.swift in Sources */,
+				B0213F401A6408B300369BC3 /* ClassViewController.swift in Sources */,
 				B0899CB31A44A0B300720A08 /* AppDelegate.swift in Sources */,
 				B0899CB51A44A0B300720A08 /* FirstViewController.swift in Sources */,
+				B0F498201A5C358D0055EDAB /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +419,7 @@
 				B0899CD01A44A0B300720A08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0899CD11A44A0B300720A08 /* Build configuration list for PBXNativeTarget "Mach1Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				B0899CD31A44A0B300720A08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
