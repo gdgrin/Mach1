@@ -10,6 +10,28 @@ import UIKit
 
 class AssignmentViewController: UITableViewController {
 
+    @IBAction func cancelToAssignmentViewController(segue:UIStoryboardSegue) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    @IBAction func saveAssignmentDetail(segue:UIStoryboardSegue) {
+        let assignmentDetailsViewController = segue.sourceViewController as AssignmentDetailsViewController
+        
+        //add the new player to the players array
+        homework.append(assignmentDetailsViewController.assignment)
+        
+        //update the tableView
+        let indexPath = NSIndexPath(forRow: homework.count-1, inSection: 0)
+        tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+        
+        //hide the detail view controller
+        dismissViewControllerAnimated(true, completion: nil)    }
+    
+    
+    var homework: [Assignment] = [Assignment]()
+        
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -28,26 +50,27 @@ class AssignmentViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Potentially incomplete method implementation.
-        // Return the number of sections.
-        return 0
+        return 1
     }
-
+    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete method implementation.
-        // Return the number of rows in the section.
-        return 0
+        return homework.count
     }
-
-    /*
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as UITableViewCell
-
-        // Configure the cell...
-
-        return cell
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath)
+        -> UITableViewCell {
+            let cell = tableView.dequeueReusableCellWithIdentifier("AssignmentCell", forIndexPath: indexPath)
+                as AssignmentCell
+            
+            let assignments = homework[indexPath.row] as Assignment
+            cell.nameLabel.text = assignments.name
+            cell.dueDateLabel.text = assignments.dueDate
+            
+//            cell.accessoryType = UITableViewCellAccessoryType.Checkmark
+            
+            
+            return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.

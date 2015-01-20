@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+import UIKit
+
+class Assignment: NSObject {
+    var name: String
+    var dueDate: NSDate
+//  var completed: Bool
+    
+    init(name: String, dueDate: NSDate /*completed: Bool = false */) {
+        self.name = name
+        self.dueDate = dueDate
+    //  self.completed = completed
+        super.init()
+    }
+}

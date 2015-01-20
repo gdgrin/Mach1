@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00951881A657ABF006E136E /* AssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00951871A657ABF006E136E /* AssignmentViewController.swift */; };
+		B009518A1A657BA1006E136E /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00951891A657BA1006E136E /* Assignment.swift */; };
 		B0213F401A6408B300369BC3 /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0213F3F1A6408B300369BC3 /* ClassViewController.swift */; };
+		B06CC0701A66CD390069FBC4 /* AssignmentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CC06F1A66CD390069FBC4 /* AssignmentDetailsViewController.swift */; };
+		B06CC0721A66CEF60069FBC4 /* AssignmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CC0711A66CEF60069FBC4 /* AssignmentCell.swift */; };
 		B0899CB31A44A0B300720A08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0899CB21A44A0B300720A08 /* AppDelegate.swift */; };
 		B0899CB51A44A0B300720A08 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0899CB41A44A0B300720A08 /* FirstViewController.swift */; };
 		B0899CB71A44A0B300720A08 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0899CB61A44A0B300720A08 /* SecondViewController.swift */; };
@@ -29,7 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B00951871A657ABF006E136E /* AssignmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentViewController.swift; sourceTree = "<group>"; };
+		B00951891A657BA1006E136E /* Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
 		B0213F3F1A6408B300369BC3 /* ClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
+		B06CC06F1A66CD390069FBC4 /* AssignmentDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentDetailsViewController.swift; sourceTree = "<group>"; };
+		B06CC0711A66CEF60069FBC4 /* AssignmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentCell.swift; sourceTree = "<group>"; };
 		B0899CAD1A44A0B300720A08 /* Mach1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mach1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0899CB11A44A0B300720A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0899CB21A44A0B300720A08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +100,10 @@
 				B0899CBB1A44A0B300720A08 /* Images.xcassets */,
 				B0899CBD1A44A0B300720A08 /* LaunchScreen.xib */,
 				B0899CB01A44A0B300720A08 /* Supporting Files */,
+				B00951871A657ABF006E136E /* AssignmentViewController.swift */,
+				B00951891A657BA1006E136E /* Assignment.swift */,
+				B06CC0711A66CEF60069FBC4 /* AssignmentCell.swift */,
+				B06CC06F1A66CD390069FBC4 /* AssignmentDetailsViewController.swift */,
 			);
 			path = Mach1;
 			sourceTree = "<group>";
@@ -222,10 +234,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0899CB71A44A0B300720A08 /* SecondViewController.swift in Sources */,
+				B009518A1A657BA1006E136E /* Assignment.swift in Sources */,
 				B0213F401A6408B300369BC3 /* ClassViewController.swift in Sources */,
 				B0899CB31A44A0B300720A08 /* AppDelegate.swift in Sources */,
 				B0899CB51A44A0B300720A08 /* FirstViewController.swift in Sources */,
+				B06CC0701A66CD390069FBC4 /* AssignmentDetailsViewController.swift in Sources */,
+				B06CC0721A66CEF60069FBC4 /* AssignmentCell.swift in Sources */,
 				B0F498201A5C358D0055EDAB /* HomeViewController.swift in Sources */,
+				B00951881A657ABF006E136E /* AssignmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
