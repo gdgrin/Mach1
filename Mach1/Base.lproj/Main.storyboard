@@ -376,7 +376,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" reuseIdentifier="AssignmentCell" textLabel="ilW-7W-YPJ" detailTextLabel="596-1F-Sl5" style="IBUITableViewCellStyleSubtitle" id="eVa-ZQ-TvB" customClass="AssignmentCell" customModule="Mach1" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AssignmentCell" textLabel="ilW-7W-YPJ" detailTextLabel="596-1F-Sl5" style="IBUITableViewCellStyleSubtitle" id="eVa-ZQ-TvB" customClass="AssignmentCell" customModule="Mach1" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eVa-ZQ-TvB" id="rbE-fK-tjQ">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -395,6 +395,10 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="dueDateLabel" destination="596-1F-Sl5" id="t9R-lj-22c"/>
+                                    <outlet property="nameLabel" destination="ilW-7W-YPJ" id="Ehd-j8-Xid"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -424,7 +428,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" reuseIdentifier="AssignmentCell" textLabel="UvN-d9-rat" detailTextLabel="wZp-wa-hd1" style="IBUITableViewCellStyleSubtitle" id="sJC-LG-UaC" customClass="AssignmentCell" customModule="Mach1" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AssignmentCell" textLabel="UvN-d9-rat" detailTextLabel="wZp-wa-hd1" style="IBUITableViewCellStyleSubtitle" id="sJC-LG-UaC" customClass="AssignmentCell" customModule="Mach1" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sJC-LG-UaC" id="pJs-vA-Mzf">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -443,6 +447,10 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="dueDateLabel" destination="wZp-wa-hd1" id="zlb-aP-mqQ"/>
+                                    <outlet property="nameLabel" destination="UvN-d9-rat" id="xSY-1t-BVL"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -472,7 +480,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" reuseIdentifier="AssignmentCell" textLabel="NUi-u4-ehF" detailTextLabel="BQt-Rj-pt0" style="IBUITableViewCellStyleSubtitle" id="APL-JJ-Uct" customClass="AssignmentCell" customModule="Mach1" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AssignmentCell" textLabel="NUi-u4-ehF" detailTextLabel="BQt-Rj-pt0" style="IBUITableViewCellStyleSubtitle" id="APL-JJ-Uct" customClass="AssignmentCell" customModule="Mach1" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="APL-JJ-Uct" id="9fu-a2-XbZ">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -491,6 +499,10 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="dueDateLabel" destination="BQt-Rj-pt0" id="OC2-AL-57t"/>
+                                    <outlet property="nameLabel" destination="NUi-u4-ehF" id="qfd-3P-J2D"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -520,7 +532,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" reuseIdentifier="AssignmentCell" textLabel="QBj-f6-qgt" detailTextLabel="zPo-R8-hFb" style="IBUITableViewCellStyleSubtitle" id="kIP-6J-wuc" customClass="AssignmentCell" customModule="Mach1" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AssignmentCell" textLabel="QBj-f6-qgt" detailTextLabel="zPo-R8-hFb" style="IBUITableViewCellStyleSubtitle" id="kIP-6J-wuc" customClass="AssignmentCell" customModule="Mach1" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kIP-6J-wuc" id="blE-vF-J9F">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -572,7 +584,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" reuseIdentifier="AssignmentCell" textLabel="N6Z-YP-Wf5" detailTextLabel="ikC-CV-ipu" style="IBUITableViewCellStyleSubtitle" id="uxo-ig-8Hn" customClass="AssignmentCell" customModule="Mach1" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AssignmentCell" textLabel="N6Z-YP-Wf5" detailTextLabel="ikC-CV-ipu" style="IBUITableViewCellStyleSubtitle" id="uxo-ig-8Hn" customClass="AssignmentCell" customModule="Mach1" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uxo-ig-8Hn" id="A9i-1L-ACT">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -591,6 +603,10 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="dueDateLabel" destination="ikC-CV-ipu" id="1hF-Th-QJ4"/>
+                                    <outlet property="nameLabel" destination="N6Z-YP-Wf5" id="VOH-cm-Evw"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -628,7 +644,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="clL-rc-AOU">
-                                                    <rect key="frame" x="0.0" y="9" width="375" height="30"/>
+                                                    <rect key="frame" x="8" y="11" width="359" height="30"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
@@ -682,7 +698,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f0j-cD-pyH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="E3D-c6-npl" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="815.5" y="3645.5"/>
+            <point key="canvasLocation" x="815.5" y="3643.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5xo-Ai-mV2">
@@ -889,9 +905,9 @@
         <segue reference="n0y-M7-QWW"/>
         <segue reference="PV1-uS-fU0"/>
         <segue reference="L8h-Bk-UUB"/>
+        <segue reference="cfA-5B-Sc2"/>
+        <segue reference="iYq-MT-xBW"/>
         <segue reference="PRt-rW-7l7"/>
-        <segue reference="VoL-1W-WJ1"/>
-        <segue reference="UXt-FS-yWE"/>
-        <segue reference="6Op-lH-kBA"/>
+        <segue reference="TLf-ae-fbC"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -64,10 +64,15 @@ class AssignmentViewController: UITableViewController {
             
             let assignments = homework[indexPath.row] as Assignment
             cell.nameLabel.text = assignments.name
-            cell.dueDateLabel.text = assignments.dueDate
             
-//            cell.accessoryType = UITableViewCellAccessoryType.Checkmark
+            var dateFormatter = NSDateFormatter()
+            dateFormatter.dateFormat = "MM/dd/yyyy"
+            let s = dateFormatter.stringFromDate(assignments.dueDate)
             
+            cell.dueDateLabel.text = s // assignments.dueDate.description
+            
+            cell.accessoryType = UITableViewCellAccessoryType.Checkmark
+//            cell.selectionStyle = UITableViewCellSelectionStyle.Blue
             
             return cell
     }

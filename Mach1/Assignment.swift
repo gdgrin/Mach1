@@ -13,12 +13,12 @@ import UIKit
 class Assignment: NSObject {
     var name: String
     var dueDate: NSDate
-//  var completed: Bool
+    var completed: Bool
     
-    init(name: String, dueDate: NSDate /*completed: Bool = false */) {
+    init(name: String, dueDate: NSDate, completed: Bool = false) {
         self.name = name
         self.dueDate = dueDate
-    //  self.completed = completed
+        self.completed = completed
         super.init()
     }
 }

@@ -14,7 +14,7 @@ class AssignmentDetailsViewController: UITableViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "SaveAssignmentDetail" {
-            assignment = Assignment(name: self.nameTextField.text, dueDate: self.datePicker.date)
+            assignment = Assignment(name: self.nameTextField.text, dueDate: self.datePicker.date, completed: false)
         }
     }
     
